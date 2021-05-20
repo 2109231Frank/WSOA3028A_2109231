@@ -9,6 +9,30 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: dimgray;
+    background-color:lightslategrey;
     font-family: 'Exo 2',sans-serif;
+}
+
+.logo{
+    color:rgb(224, 222, 243);
+    letter-spacing: 5px;
+    font-size: 23px;
+}
+
+.nav-links{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(224, 222, 243);
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 15px;
 }
