@@ -1,0 +1,14 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: dimgray;
+    font-family: 'Exo 2',sans-serif;
+}
