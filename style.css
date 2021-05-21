@@ -11,6 +11,7 @@ nav{
     min-height: 8vh;
     background-color:lightslategrey;
     font-family: 'Exo 2',sans-serif;
+    width: 100%;
 }
 
 .logo{
@@ -21,7 +22,7 @@ nav{
 
 .nav-links{
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-around;
 }
 
@@ -34,5 +35,44 @@ nav{
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 10px;
 }
+.threestripe{
+    cursor: pointer;
+}
+
+.threestripe div{
+width: 33px;
+height: 5px;
+background-color: rgb(224, 222, 243);
+margin: 5px;
+
+}
+
+
+
+@media screen  {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 34vh;
+        background-color:lightslategrey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+   
+    .threestripe{
+        display: block;
+    }
+    }
+    .nav-active{
+        transform: translateX(-2.40%);
+    }
