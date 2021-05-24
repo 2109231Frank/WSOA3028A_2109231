@@ -17,7 +17,7 @@ nav{
 }
 
 .nav-links{
-    display: flex;
+    display:flex;
     width: 50%;
     justify-content: space-around;
 }
@@ -57,7 +57,7 @@ transition: all 0.3s ease;
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 100vh;
+        height:100%;
         top: 34vh;
         background-color:lightslategrey;
         display: flex;
