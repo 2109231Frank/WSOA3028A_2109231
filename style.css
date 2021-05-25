@@ -43,6 +43,18 @@ nav{
     list-style: none;
 }
 
+.in-text a{
+    color: rgb(224, 222, 243);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.in-text li{
+    list-style: none;
+}
+
 .nav-links a{
     color: rgb(224, 222, 243);
     text-decoration: none;
