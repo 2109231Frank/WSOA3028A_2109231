@@ -5,16 +5,11 @@ body{
 
 h1{
     font-family: 'Exo 2',sans-serif;
-    color:rgb(233, 231, 248);
-}
-h2{
-    font-family: 'Exo 2',sans-serif;
-    color:rgb(233, 231, 248);
-}
-h3{
-    font-family: 'Exo 2',sans-serif;
     color:rgb(224, 222, 243);
+    font-size: 30px;
+    letter-spacing: 10px;
 }
+
 
 article{
     font-family: 'Exo 2',sans-serif;
@@ -80,7 +75,7 @@ transition: all 0.3s ease;
         position: absolute;
         right: 0px;
         height:70%;
-        top: 34vh;
+        top: 10%;
         background-color:lightslategrey;
         display: flex;
         flex-direction: column;
@@ -121,4 +116,11 @@ transition: all 0.3s ease;
 
     footer{
         color:rgb(233, 231, 248);
+    }
+
+    hr{
+        border: none;
+        background-color:lightslategrey;
+        height: 2px;
+        top:100%;
     }
