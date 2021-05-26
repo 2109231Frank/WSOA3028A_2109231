@@ -4,7 +4,7 @@ body{
     border: none;
     margin: 0;
     padding: 0;
-    background-color:rgb(166, 189, 212);
+    background:linear-gradient(to left, rgb(70, 80, 90), rgb(128, 146, 163));
 }
 
 h1{
@@ -45,7 +45,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    background-color:lightslategrey;
+    background-color: rgb(70, 80, 90) ;
     font-family: 'Exo 2',sans-serif;
     width: 100%;
 
@@ -112,7 +112,7 @@ transition: all 0.3s ease;
         right: 0px;
         height:70%;
         top: 12%;
-        background-color:lightslategrey;
+        background-color:rgb(70, 80, 90);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -164,6 +164,43 @@ transition: all 0.3s ease;
     .image{
         margin: 30px;
         transform: translateX(20%);
+    }
+
+    style{
+        height: 100vh;
+    }
+
+    span{
+        position: absolute;
+        pointer-events: none;
+        background: rgb(77, 88, 99);
+        animation: animate 8s linear infinite;
+    }
+
+    @keyframes animate {
+    
+
+        0%
+        {
+            transform: scale(0) translateY(0%) rotate(o);
+            opacity: 0;
+        }
+
+        20%
+        {
+            opacity: 1;
+        }
+
+        80%
+        {
+            opacity: 1;
+        }
+
+        100%
+        {
+            transform: scale(1) translateY(500%) rotate(360deg);
+            opacity: 0;
+        }
     }
 
     
