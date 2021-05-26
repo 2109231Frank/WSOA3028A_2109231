@@ -14,7 +14,7 @@ h1{
 article{
     text-align: left;
     font-family: 'Exo 2',sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color:rgb(233, 231, 248);
 }
 
@@ -22,10 +22,11 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 15vh;
     background-color:lightslategrey;
     font-family: 'Exo 2',sans-serif;
     width: 100%;
+
 }
 
 .logo{
@@ -88,7 +89,7 @@ transition: all 0.3s ease;
         position: absolute;
         right: 0px;
         height:70%;
-        top: 10%;
+        top: 13.8%;
         background-color:lightslategrey;
         display: flex;
         flex-direction: column;
