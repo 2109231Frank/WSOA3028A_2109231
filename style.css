@@ -161,4 +161,9 @@ transition: all 0.3s ease;
         top:100%;
     }
 
+    .image{
+        margin: 30px;
+        transform: translateX(20%);
+    }
+
     
