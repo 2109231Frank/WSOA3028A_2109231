@@ -17,6 +17,7 @@ h1{
 }
 
 h2{
+    padding-left: 2.5%;
     font-family: 'Exo 2',sans-serif;
     color:rgb(224, 222, 243);
     font-size: 20px;
@@ -34,11 +35,14 @@ p{
     color:rgb(233, 231, 248);
 }
 
+
+
 footer {
-    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
     width: fit-content;
     text-align: left;
-    
+    font-family: 'Exo 2',sans-serif;
 }
 
 nav{
