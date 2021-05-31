@@ -5,39 +5,43 @@ body{
     border: none;
     margin: 0;
     padding: 0;
-    background:linear-gradient(to left, rgb(70, 80, 90), rgb(128, 146, 163));
+    background:repeating-radial-gradient(rgb(99, 113, 126) , rgb(70, 80, 90) 10%);
     
+  background-attachment: fixed;
 }
 
 h1{
+    font-family: 'Exo 2',sans-serif;
+    color:rgb(224, 222, 243);
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+h2{
+    
+    padding-left: 5%;
     font-family: 'Exo 2',sans-serif;
     color:rgb(224, 222, 243);
     font-size: 35px;
     letter-spacing: 10px;
 }
 
-h2{
-    padding-left: 2.5%;
-    font-family: 'Exo 2',sans-serif;
-    color:rgb(224, 222, 243);
-    font-size: 20px;
-    letter-spacing: 10px;
-}
-
 
 p{
     padding-left: 5%;
+    padding-right: 5%;
     width: fit-content;
     
     text-align: left;
     font-family: 'Exo 2',sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     color:rgb(233, 231, 248);
 }
 
 
 
 footer {
+    padding-top: 10%;
     padding-bottom: 5%;
     padding-left: 2%;
     width: fit-content;
@@ -80,6 +84,7 @@ nav{
 
 .in-text li{
     list-style: none;
+    padding-left: 5%;
 }
 
 .nav-links a{
@@ -167,7 +172,7 @@ transition: all 0.3s ease;
 
     .image{
         margin: 30px;
-        transform: translateX(20%);
+        transform: translateX(14%);
     }
 
     
