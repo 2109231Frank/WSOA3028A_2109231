@@ -41,7 +41,7 @@ p{
 
 
 footer {
-    padding-top: 10%;
+    padding-top: 9%;
     padding-bottom: 5%;
     padding-left: 2%;
     width: fit-content;
@@ -93,7 +93,7 @@ nav{
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
 }
 .threestripe{
     cursor: pointer;
