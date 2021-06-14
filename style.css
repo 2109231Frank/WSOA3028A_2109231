@@ -1,11 +1,13 @@
 
 
+
+
 body{
-    
+    top: 20vh;
     border: none;
     margin: 0;
     padding: 0;
-    background:repeating-radial-gradient(rgb(99, 113, 126) , rgb(70, 80, 90) 10%);
+    background: linear-gradient(to left, rgb(99, 113, 126) , rgb(70, 80, 90));
     
   background-attachment: fixed;
 }
@@ -18,11 +20,20 @@ h1{
 }
 
 h2{
-    
+    padding-top: 6%;
     padding-left: 5%;
     font-family: 'Exo 2',sans-serif;
     color:rgb(224, 222, 243);
     font-size: 35px;
+    letter-spacing: 10px;
+}
+
+h3{
+    
+    padding-left: 5%;
+    font-family: 'Exo 2',sans-serif;
+    color:rgb(224, 222, 243);
+    font-size: 20px;
     letter-spacing: 10px;
 }
 
@@ -41,38 +52,46 @@ p{
 
 
 footer {
-    padding-top: 9%;
+    padding-top: 3%;
     padding-bottom: 5%;
-    padding-left: 2%;
-    width: fit-content;
+    padding-left: 5%;
+    width: 100%;
     text-align: left;
     font-family: 'Exo 2',sans-serif;
+    color:rgb(224, 222, 243);
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(47, 53, 59);
 }
 
 nav{
-
-    
+    opacity: 0.9;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    background-color: rgb(70, 80, 90) ;
+    background-color: rgb(47, 53, 59);
     font-family: 'Exo 2',sans-serif;
     width: 100%;
+    top: 0%;
+}
 
+nav a{
+    font-family: 'Exo 2',sans-serif;
+    color:rgb(224, 222, 243);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+nav a:hover{
+    letter-spacing: 4px;
+    font-size: 15px;
 }
 
 
-
-.nav-links{
-    display:flex;
-    width: 50%;
-    justify-content: space-around;
-}
-
-.nav-links li{
-    list-style: none;
-}
 
 .in-text a{
     color: rgb(224, 222, 243);
@@ -88,88 +107,6 @@ nav{
     padding-left: 5%;
 }
 
-.nav-links a{
-    color: rgb(224, 222, 243);
-    text-decoration: none;
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.threestripe{
-    cursor: pointer;
-}
-
-.threestripe div{
-width: 33px;
-height: 5px;
-background-color: rgb(224, 222, 243);
-margin: 5px;
-transition: all 0.3s ease;
-
-}
-
-.nav-links li{
-    opacity: 0;
-}
-
-@media screen  {
-    body{
-        overflow-x: hidden;
-    }
-    .nav-links{
-       
-        position: absolute;
-        right: 0px;
-        height:70%;
-        top: 12%;
-        background-color:rgb(70, 80, 90);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 25%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-   
-    .threestripe{
-        display: block;
-    }
-    }
-    .nav-active{
-        transform: translateX(0%);
-    }
-
-    @keyframes navLinkAppear{
-        from{
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
-
-    .toggle .line1{
-        transform: rotate(-45deg) translate(-7px, 7px);
-    }
-    .toggle .line2{
-        opacity: 0;
-    }
-    .toggle .line3{
-        transform: rotate(45deg) translate(-7px, -7px);
-    }
-
-    footer{
-        color:rgb(233, 231, 248);
-    }
-
-    hr{
-        border: none;
-        background-color:lightslategrey;
-        height: 2px;
-        top:100%;
-    }
 
     .image{
         margin: 30px;
