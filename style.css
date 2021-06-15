@@ -66,25 +66,7 @@ footer {
 }
 
 
-.blogHead{
-    opacity: 0.9;
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 13vh;
-    background-color: rgb(47, 53, 59);
-    font-family: 'Exo 2',sans-serif;
-    width: 100%;
-    top: 0%;
-}
-.blogHead a{
-    font-size: 30px;
-    font-weight: bold;
-    list-style: none;
-    text-decoration: none;
-    color:rgb(233, 231, 248);
-}
+
 
 
 .in-text a{
@@ -129,7 +111,6 @@ footer {
         footer{
             font-size: 15px;
         }
-       
     }
     
 
