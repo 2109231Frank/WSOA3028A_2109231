@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-    padding-left: 10%;
+     padding-left: 10%;
     font-family: 'Exo 2',sans-serif;
     color:rgb(224, 222, 243);
     font-size: 40px;
@@ -66,7 +66,25 @@ footer {
 }
 
 
-
+.blogHead{
+    opacity: 0.9;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    background-color: rgb(47, 53, 59);
+    font-family: 'Exo 2',sans-serif;
+    width: 100%;
+    top: 0%;
+}
+.blogHead a{
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    color:rgb(233, 231, 248);
+}
 
 
 .in-text a{
@@ -111,6 +129,7 @@ footer {
         footer{
             font-size: 15px;
         }
+       
     }
     
 
