@@ -61,7 +61,6 @@ footer {
     font-family: 'Exo 2',sans-serif;
     color:rgb(224, 222, 243);
     font-size: 20px;
-    text-align: left;
     background-color: rgb(47, 53, 59);
 }
 
@@ -87,9 +86,36 @@ footer {
     .image{
         margin: 30px;
         transform: translateX(14%);
+        height: 400px; 
+        width: 750px; 
     }
-
-
+    @media screen and (max-width:1200px){
+        p{
+           font-size: 25px;
+        }
+        h1{
+            font-size: 30px;
+            
+        }
+        h2{
+            padding-top: 30%; 
+            font-size: 25px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        .in-text a{
+            font-size: 15px;
+        }
+        footer{
+            font-size: 20px;
+        }
+        .image{
+            transform: none;
+            height: 200px; 
+            width: 300px;
+        }
+    }
     @media screen and (max-width:768px){
         p{
            font-size: 15px;
@@ -110,6 +136,11 @@ footer {
         }
         footer{
             font-size: 15px;
+        }
+        .image{
+            transform: none;
+            height: 200px; 
+            width: 300px;
         }
     }
     

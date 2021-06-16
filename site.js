@@ -21,9 +21,6 @@ const navigationAnimation = () =>
                     link.style.animation = `nav-linkAnim 0.7s ease forwards ${index/ 7 + 0.5}s`;
                 }
             });
-            
-            threestripe.classList.toggle('.toggle')
-        
         });
 }
 navigationAnimation();
