@@ -16,72 +16,54 @@ function smoothScroll(target, duration)
                     if(timeEllapsed < duration) requestAnimationFrame(scrollAnim);
     }
 
-    /*function animationEase(t, b, c, d)
+    function animationEase(t, b, c, d)
     {
         t /= d / 2;
         if(t < 1) return c / 2 * t * t + b;
             t--;
             return -c / 2 * (t * (t - 2) - 1) + b;  
         
-    }*/
-
+    }
+    console.log(targetPos);
+    console.log(startPos);
+    console.log(distanceBetween);
         requestAnimationFrame(scrollAnim);
+
+            
 }
+    //link to top
+    var ToTop = document.querySelector('.toTop');
+        ToTop.addEventListener('click', () => {
+            smoothScroll('.section1', 1000);
+        });
     //link to contact
         var Tosection6 = document.querySelector('.section6Link');
-        Tosection6.addEventListener('click', function(){
+        Tosection6.addEventListener('click', () => {
             smoothScroll('.section6', 1000);
+                
         });
     //link to work
         var Tosection5 = document.querySelector('.section5Link');
-        Tosection5.addEventListener('click', function(){
+        Tosection5.addEventListener('click', () => {
             smoothScroll('.section5', 1000);
         });
     //link to blogs
         var Tosection4 = document.querySelector('.section4Link');
-        Tosection4.addEventListener('click', function(){
+        Tosection4.addEventListener('click', () => {
             smoothScroll('.section4', 1000);
         });
     //link to personal
         var Tosection3 = document.querySelector('.section3Link');
-        Tosection3.addEventListener('click', function(){
+        Tosection3.addEventListener('click', () => {
             smoothScroll('.section3', 1000);
         });
     //link to projects
         var Tosection2 = document.querySelector('.section2Link');
-        Tosection2.addEventListener('click', function(){
+        Tosection2.addEventListener('click', () => {
             smoothScroll('.section2', 1000);
         });
     //link to about
         var Tosection1 = document.querySelector('.section1Link');
-        Tosection1.addEventListener('click', function(){
+        Tosection1.addEventListener('click', () => {
             smoothScroll('.section1', 1000);
         });
-
-
-
-//Mobile and tablet navbar animation
-const navigationAnimation = () => 
-{
-    const threestripe = document.querySelector('.threestripe');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li');
-
-        threestripe.addEventListener('click', () => 
-        {
-            nav.classList.toggle('navigationAnim');
-
-            navLinks.forEach((link, index) => 
-            {
-                if(link.style.animation)
-                {
-                    link.style.animation = '';
-                }
-                else
-                {
-                    link.style.animation = `nav-linkAnim 0.7s ease forwards ${index/ 7 + 0.5}s`;
-                }
-            });
-        });
-}
-navigationAnimation();
