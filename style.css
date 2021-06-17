@@ -1,14 +1,13 @@
 
 
 
-
 body{
     top: 20vh;
     border: none;
     margin: 0;
     padding: 0;
     background: linear-gradient(to left, rgb(99, 113, 126) , rgb(70, 80, 90));
-    
+    overflow-x: hidden;
   background-attachment: fixed;
 }
 
