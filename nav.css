@@ -2,7 +2,7 @@
 
 nav{
     opacity: 0.9;
-    position: absolute;
+    position:fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
