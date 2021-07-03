@@ -1,11 +1,10 @@
 
 const menuItems = [
    
-    {title: 'PROJECTS', link: 'Pages/Projects.html'},
+   
     {title: 'PERSONAL', link: 'Pages/Mikes-Personal-Blogs.html'},
     {title: 'INTERACTIVE', link: 'Pages/Interactive-Media-Blogs.html'},
-    {title: 'CONTACT', link: 'Pages/Contact.html'},
-    {title: 'WORK', link: 'Pages/Work.html'},
+    
     {title: 'TEMPLATE', link: 'Pages/WireFrame.html'},
 
 ]
@@ -36,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => initialiseMenu());
 const navigationAnimation = () => 
 {
     const threestripe = document.querySelector('.threestripe');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li');
+    const nav = document.querySelector('nav');
+    const navLinks = document.querySelector('nav li');
 
 
         threestripe.addEventListener('click', () => 

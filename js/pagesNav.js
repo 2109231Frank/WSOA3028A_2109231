@@ -1,10 +1,9 @@
 const menuItems = [
     {title: 'HOME', link: '../index.html'},
-    {title: 'PROJECTS', link: 'Projects.html'},
+   
     {title: 'PERSONAL', link: 'Mikes-Personal-Blogs.html'},
     {title: 'INTERACTIVE', link: 'Interactive-Media-Blogs.html'},
-    {title: 'CONTACT', link: 'Contact.html'},
-    {title: 'WORK', link: 'Work.html'},
+    
     {title: 'TEMPLATE', link: 'WireFrame.html'},
 
 ]
