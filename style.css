@@ -4,6 +4,30 @@ html{
     
 }
 
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: fit-content;
+    text-align: justify;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 30px;
+    color:rgb(233, 231, 248);
+}
+
+button{
+    
+    margin-top: 5%;
+    padding: 10px;
+    border: solid 2px;
+    border-color: rgb(224, 222, 243);
+    background-color: rgb(47, 53, 59);
+    color: rgb(224, 222, 243);
+    font-family: 'Exo 2',sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    width: fit-content;
+}
+
 body{
     top: 20vh;
     border: none;
@@ -111,6 +135,10 @@ footer {
         p{
            font-size: 30px;
         }
+        section{
+            font-size: 30px;
+            text-align: justify;
+        }
         h1{
             padding-top: 20%;
             font-size: 40px;
@@ -148,8 +176,16 @@ footer {
         p{
            font-size: 15px;
         }
+        section{
+            font-size: 15px;
+            text-align: justify;
+        }
+        button{
+            font-size: 15px;
+        }
         h1{
             padding-top: 10%;
+            font-size: 20px;
         }
         h2{
             padding-top: 10%; 
